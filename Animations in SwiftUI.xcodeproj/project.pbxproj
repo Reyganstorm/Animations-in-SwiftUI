@@ -11,6 +11,10 @@
 		E851D21F2A23608100DE7081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E851D21E2A23608100DE7081 /* ContentView.swift */; };
 		E851D2212A23608200DE7081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E851D2202A23608200DE7081 /* Assets.xcassets */; };
 		E851D2242A23608200DE7081 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E851D2232A23608200DE7081 /* Preview Assets.xcassets */; };
+		E8D203CA2A29F661007996E1 /* SavanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D203C92A29F661007996E1 /* SavanaView.swift */; };
+		E8D203CE2A29F6F4007996E1 /* HeroImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D203CD2A29F6F4007996E1 /* HeroImage.swift */; };
+		E8D203D02A29F75B007996E1 /* TourTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D203CF2A29F75B007996E1 /* TourTittle.swift */; };
+		E8D203D22A29FA01007996E1 /* MilestonesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D203D12A29FA01007996E1 /* MilestonesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		E851D21E2A23608100DE7081 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E851D2202A23608200DE7081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E851D2232A23608200DE7081 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8D203C92A29F661007996E1 /* SavanaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavanaView.swift; sourceTree = "<group>"; };
+		E8D203CD2A29F6F4007996E1 /* HeroImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImage.swift; sourceTree = "<group>"; };
+		E8D203CF2A29F75B007996E1 /* TourTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTittle.swift; sourceTree = "<group>"; };
+		E8D203D12A29FA01007996E1 /* MilestonesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestonesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		E851D21B2A23608100DE7081 /* Animations in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				E8D203CB2A29F6C3007996E1 /* SavanaToursApp */,
+				E8D203C82A29F606007996E1 /* Views */,
 				E851D21C2A23608100DE7081 /* Animations_in_SwiftUIApp.swift */,
-				E851D21E2A23608100DE7081 /* ContentView.swift */,
 				E851D2202A23608200DE7081 /* Assets.xcassets */,
 				E851D2222A23608200DE7081 /* Preview Content */,
 			);
@@ -65,6 +74,33 @@
 				E851D2232A23608200DE7081 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8D203C82A29F606007996E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E851D21E2A23608100DE7081 /* ContentView.swift */,
+				E8D203C92A29F661007996E1 /* SavanaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8D203CB2A29F6C3007996E1 /* SavanaToursApp */ = {
+			isa = PBXGroup;
+			children = (
+				E8D203CC2A29F6DF007996E1 /* Views */,
+			);
+			path = SavanaToursApp;
+			sourceTree = "<group>";
+		};
+		E8D203CC2A29F6DF007996E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8D203CD2A29F6F4007996E1 /* HeroImage.swift */,
+				E8D203CF2A29F75B007996E1 /* TourTittle.swift */,
+				E8D203D12A29FA01007996E1 /* MilestonesList.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D203D22A29FA01007996E1 /* MilestonesList.swift in Sources */,
 				E851D21F2A23608100DE7081 /* ContentView.swift in Sources */,
+				E8D203D02A29F75B007996E1 /* TourTittle.swift in Sources */,
+				E8D203CA2A29F661007996E1 /* SavanaView.swift in Sources */,
 				E851D21D2A23608100DE7081 /* Animations_in_SwiftUIApp.swift in Sources */,
+				E8D203CE2A29F6F4007996E1 /* HeroImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
